@@ -1,0 +1,20 @@
+{
+    "LogFile": "tvmover.log",
+    "MoveMethod": "copy",
+    "FilenameRegex": "(?P<title>.+)\\b[Ss].*(?P<season>[0-9]+).*[Ee].*(?P<episode>[0-9]+).*",
+    "Extensions": [
+        ".mp4",
+        ".mov",
+        ".avi",
+        ".txt"
+    ],
+    "IgnoreCharacters": ".-_",
+    "Directories": [
+        {
+            "InDir": "C:/Users/MRWINX/Documents/Input",
+            "OutDirs": [
+                "C:/Users/MRWINX/Documents/Output"
+            ]
+        }
+    ]
+}
